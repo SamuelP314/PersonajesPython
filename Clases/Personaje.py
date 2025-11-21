@@ -28,4 +28,4 @@ class Personaje:
         return f"{self.nombre} está esperando..."
 
     def probar(self):
-        print(f"Personaje: {self.nombre}")
+        pass
