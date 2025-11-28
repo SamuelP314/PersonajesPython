@@ -7,9 +7,9 @@ class Guerrero(Personaje):
     def __init__(self, canvas, nombre, x, y):
         # Llamamos al constructor del padre (super)
         super().__init__(canvas, nombre, x, y)
-        self.color = "#e74c3c"  # Rojo
-        self.arma = "Espada"
+        self.color = "#c90000"  # Rojo
+        self.arma = "Padalustro"
 
-    # POLIMORFISMO: Sobrescribimos el método realizar_accion
+        # POLIMORFISMO: Sobrescribimos el método realizar_accion
     def realizar_accion(self):
         return f"¡{self.nombre} ataca fuertemente con su {self.arma}!"
