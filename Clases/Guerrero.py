@@ -8,7 +8,7 @@ class Guerrero(Personaje):
         # Llamamos al constructor del padre (super)
         super().__init__(canvas, nombre, x, y)
         self.color = "#c90000"  # Rojo
-        self.arma = "Padalustro"
+        self.arma = "espada"
 
         # POLIMORFISMO: Sobrescribimos el método realizar_accion
     def realizar_accion(self):
